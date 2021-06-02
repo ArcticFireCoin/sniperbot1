@@ -35,7 +35,7 @@ for i in range(10000):
         driver = webdriver.Firefox(firefox_profile=firefox_profile, options=options)
     action = webdriver.ActionChains(driver)
     # Open URL
-    driver.get("https://coinsniper.net/coin/171")
+    driver.get("https://coinsniper.net/coin/487")
     #time.sleep(1)
     btn = driver.find_element_by_xpath('/html/body/section[2]/div/div[2]/div/div[1]/div[6]/form/button')
     time.sleep(2)
